@@ -1,5 +1,5 @@
 ---
-
+const pageTitle = "My Astro Learning Blog";
 ---
 
 <html lang="en">
@@ -15,12 +15,16 @@
 		<a href="/about/">About</a>
         <a href="/blog/">Blog</a>
 
-        <h1>Astro</h1>
+        <h1>{pageTitle}</h1>
 
         <h2>Blog</h2>
         <h1>My Astro Learning Blog</h1>
         <p>This is where I will post about my journey learning Astro.</p>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe, labore. Nisi voluptatum repellendus aut qui debitis sit, earum quo repudiandae nulla vel animi consequatur ex placeat soluta nemo iusto repellat autem magnam officiis sint possimus. Dolorum modi provident quae libero similique expedita, nemo labore.</p>
-		
+		<ul>
+			<li><a href="/posts/post-1/">Post 1</a></li>
+			<li><a href="/posts/post-2/">Post 2</a></li>
+			<li><a href="/posts/post-3/">Post 3</a></li>
+		</ul>
 	</body>
 </html>
